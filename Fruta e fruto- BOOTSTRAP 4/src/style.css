@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.card-largura {
+    max-width: 18rem;
+}
+
+/* imagem do carrosel  */
+.imagem-carrossel-um {
+    height: 400px;
+    object-fit: cover;
+    object-position: 0 80%;
+}
+
+.imagem-carrossel-dois {
+    height: 400px;
+    object-fit: cover;
+    /* object-position: 0 80%; */
+}
+
+/* fonte do titulo da imagem do carrosel  */
+.fonte-titulo {
+    font-family: 'Pacifico', cursive;
+}
+
+/* cor do titulo marrom */
+/* o important incluso épara dar prioridade e incluir a cor na logo  */
+.cor-especial {
+    color: darkred!important;
+}
+
+/* cor do botão do card  */
+.botao-cor-especial {
+    background-color: darkred;
+    color: white;
+}
+
+/* cor da borda do card */
+.borda-cor-especial {
+    border-color: darkred;
+}
+
+.card-posicao-imagem {
+    height: 200px;
+    object-fit: cover;
+    /* object-position: 0 80%; */
+}
